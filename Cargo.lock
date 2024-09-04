@@ -3966,7 +3966,6 @@ dependencies = [
  "heed",
  "http_client",
  "language",
- "languages",
  "log",
  "node_runtime",
  "open_ai",
@@ -3978,12 +3977,10 @@ dependencies = [
  "settings",
  "sha2",
  "smol",
- "tempfile",
  "theme",
  "tree-sitter",
  "unindent",
  "util",
- "workspace",
  "worktree",
 ]
 
