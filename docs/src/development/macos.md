@@ -29,6 +29,18 @@ Clone down the [Zed repository](https://github.com/zed-industries/zed).
   rustup target add wasm32-wasip1
   ```
 
+- Install `cmake` (required by [a dependency](https://docs.rs/wasmtime-c-api-impl/latest/wasmtime_c_api/))
+
+  ```sh
+  brew install cmake
+  ```
+
+- (Optional) Install `mold` to speed up link times
+
+  ```sh
+  brew install mold
+  ```
+
 ## Backend Dependencies
 
 If you are developing collaborative features of Zed, you'll need to install the dependencies of zed's `collab` server:
